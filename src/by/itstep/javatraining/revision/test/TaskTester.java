@@ -38,6 +38,7 @@ public class TaskTester {
                 && Task02.task02(1)
                 && !Task02.task02(0)
                 && !Task02.task02(30)
+                && !Task02.task02(28)
                 && !Task02.task02(-4)
                 && !Task02.task02(-64)
                 && !Task02.task02(-512)

@@ -272,6 +272,8 @@ public class TaskTester {
                 && Task10.task10(1234567789) == 2
                 && Task10.task10(1122233335) == 4
                 && Task10.task10(0) == 1
+                && Task10.task10(1) == 1
+                && Task10.task10(9) == 1
                 && Task10.task10(-15) == 1
                 && Task10.task10(-1234567789) == 2
                 && Task10.task10(-1122233335) == 4
@@ -279,7 +281,9 @@ public class TaskTester {
                 && Task10.task10(333344455551L) == 4
                 && Task10.task10(-11111) == 5
                 && Task10.task10(12) == 1
+                && Task10.task10(11) == 2
                 && Task10.task10(11122) == 3
+                && Task10.task10(22111) == 3
                 && Task10.task10(11222) == 3
                 && Task10.task10(-55558799912L) == 4
                 && Task10.task10(5588899912222L) == 4
